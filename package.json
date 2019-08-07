@@ -127,7 +127,7 @@
     "blessed": "^0.1.81",
     "blessed-contrib": "^4.8.5",
     "check-node-version": "^4.0.1",
-    "coveralls": "^3.0.0",
+    "coveralls": "3.0.5",
     "cross-env": "^5.1.6",
     "finis": "^0.4.1",
     "fluent-ffmpeg": "^2.1.0",
