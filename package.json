@@ -131,7 +131,7 @@
     "cross-env": "^5.1.6",
     "finis": "^0.4.1",
     "fluent-ffmpeg": "^2.1.0",
-    "gl-matrix": "^3.0.0",
+    "gl-matrix": "^3.1.0",
     "glob": "^7.1.0",
     "is-pr": "^1.0.0",
     "jsdoc-to-markdown": "^5.0.0",
