@@ -104,7 +104,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.3",
     "@babel/node": "^7.6.3",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
     "@chatie/eslint-config": "^0.8.1",
     "@chatie/git-scripts": "^0.2.3",
     "@chatie/tsconfig": "^0.6.1",
