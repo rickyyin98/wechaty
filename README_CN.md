@@ -1,4 +1,4 @@
-# Wechaty English | [Chinese](./README_CN.md)<!-- omit in toc -->
+# Wechaty 中文版 | [英文版](./README.md)<!-- omit in toc -->
 
 [![Wechaty](https://wechaty.github.io/wechaty/images/wechaty-logo-en.png)](https://github.com/wechaty/wechaty)
 
