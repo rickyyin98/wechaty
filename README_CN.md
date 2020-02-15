@@ -12,16 +12,16 @@
 [![NPM](https://github.com/wechaty/wechaty/workflows/NPM/badge.svg)](https://github.com/wechaty/wechaty/actions?query=workflow%3ANPM)
 [![Docker](https://github.com/wechaty/wechaty/workflows/Docker/badge.svg)](https://github.com/wechaty/wechaty/actions?query=workflow%3ADocker)
 
-## Connecting Chatbots
+## 聊天机器人
 
-Wechaty is a Bot SDK for Wechat **Individual** Account which can help you create a bot in 6 lines of javascript, with cross-platform support including [Linux, Windows, MacOS](https://github.com/wechaty/wechaty/actions?query=workflow%3ANPM), and [Docker](https://github.com/wechaty/wechaty/actions?query=workflow%3ADocker).
+Wechaty 是一个为微信**个人号**提供的聊天机器人SDK， 能帮助你用最短6行Javascript代码生成你的聊天机器人, 它跨平台支持 [Linux, Windows, MacOS](https://github.com/wechaty/wechaty/actions?query=workflow%3ANPM) 和 [Docker](https://github.com/wechaty/wechaty/actions?query=workflow%3ADocker)。
 
 :octocat: <https://github.com/Wechaty/wechaty>  
 :beetle: <https://github.com/Wechaty/wechaty/issues>  
 :book: <https://github.com/Wechaty/wechaty/wiki>  
 :whale: <https://hub.docker.com/r/zixia/wechaty>  
 
-## Voice of Developers
+## 开发者之声
 
 > "Wechaty is a great solution, I believe there would be much more users recognize it." [link](https://github.com/Wechaty/wechaty/pull/310#issuecomment-285574472)  
 > &mdash; <cite>@Gcaufy, Tencent Engineer, Author of [WePY](https://github.com/Tencent/wepy)</cite>
@@ -40,15 +40,14 @@ Wechaty is a Bot SDK for Wechat **Individual** Account which can help you create
 
 See more at [Wiki:Voice Of Developer](https://github.com/Wechaty/wechaty/wiki/Voice%20Of%20Developer)
 
-### Join Us
+### 加入开发者社区
 
-Wechaty is used in many ChatBot projects by thousands of developers. If you want to talk with other developers, just scan the following QR Code in WeChat with secret code _wechaty_, join our **Wechaty Developers' Home**.
+Wechaty 目前已经被数千位开发者使用并用于大量的开源项目。如果你愿意与他们交流并成为其中之一, 可以扫描下方二维码并回复 _wechaty_, 加入 **Wechaty Developers' Home**。
 
-![Wechaty Developers' Home](https://wechaty.github.io/wechaty/images/bot-qr-code.png)
+![Wechaty Developers' Home](docs/images/juzi-qr-code.jpeg)
 
-Scan now, because other Wechaty developers want to talk with you too! (secret code: _wechaty_)
 
-## The World's Shortest ChatBot Code: 6 lines of JavaScript
+## 全世界最简单的聊天机器人: 只需6行JavaScript
 
 ```javascript
 
@@ -61,28 +60,28 @@ Wechaty.instance() // Global Instance
 .start()
 ```
 
-> **Notice: Wechaty requires Node.js version >= 10**
+> **Wechaty 需要 Node.js 版本 >= 10**
 
-This bot can log all messages to the console after login by scan.
+这个六行的聊天机器人可以将登陆后收到的消息全部输出到控制台中。
 
-You can find more examples from [Wiki](https://github.com/Wechaty/wechaty/wiki/Examples) and [Example Directory](https://github.com/Wechaty/wechaty/blob/master/examples/).
+Wechaty 的更多案例请见 [Wiki](https://github.com/Wechaty/wechaty/wiki/Examples) 和 [Example Directory](https://github.com/Wechaty/wechaty/blob/master/examples/).
 
-## Requirements
+## 开始之前需要
 
 1. Node.js v10
 1. `sudo apt-get install build-essential && sudo snap install shellcheck`
 
-## Getting Started
+## 开始
 
 [![node](https://img.shields.io/node/v/wechaty.svg?maxAge=604800)](https://nodejs.org/)
 
-* Wechaty Starter Repository - <https://github.com/wechaty/wechaty-getting-started>
+* Wechaty 入门指南 - <https://github.com/wechaty/wechaty-getting-started>
 
-We have a Wechaty starter repository for beginners with the simplest setting. It will be **just work** out-of-the-box after you `clone` & `npm install` & `npm start`.
+我们设置了一个只需要开发者进行简单设置就能使用 Wechaty 的代码仓库。其中的代码 **只需要** 在 `clone` & `npm install` & `npm start`之后就能使用。
 
-If you are new to Wechaty and want to try it the first time, we'd like to strong recommend you starting from this repository, and using it as your starter template for your project.
+如果你是想第一次尝试Wechaty的新手，我们强烈建议你从这个仓库开始，并将其用作项目的入门模板。
 
-Otherwise, please saved the above _The World's Shortest ChatBot Code: 6 lines of JavaScript_ example to a file named `mybot.js` before you can use either NPM or Docker to run it.
+或者你也可以保存上文提到的 _全世界最简单的聊天机器人: 只需6行JavaScript_ 并以 `mybot.js`命名， 在你可以使用 NPM 或者 Docker 之后，运行这段代码。
 
 ### 1. Npm
 
@@ -105,18 +104,18 @@ node mybot.js
 [![Docker Pulls](https://img.shields.io/docker/pulls/zixia/wechaty.svg?maxAge=2592000)](https://hub.docker.com/r/zixia/wechaty/)
 [![Docker Layers](https://images.microbadger.com/badges/image/zixia/wechaty.svg)](https://microbadger.com/#/images/zixia/wechaty)
 
-* Wechaty Starter Repository for Docker - <https://github.com/wechaty/docker-wechaty-getting-started>
+* 在 Wechaty 入门指南仓库中查看 Docker - <https://github.com/wechaty/docker-wechaty-getting-started>
 
-> Wechaty Docker supports both JavaScript and TypeScript. To use TypeScript just write in TypeScript and save with extension name `.ts`, no need to compile because we use `ts-node` to run it.
+> Wechaty Docker 同时支持 JavaScript 和 TypeScript. 当使用 TypeScript 时，遵循 TypeScript 语法并保存为`.ts`，因为我们使用了 `ts-node` 去运行代码，所以无需编译。
 
-2.1. Run JavaScript
+2.1. 运行 JavaScript
 
 ```shell
 # for JavaScript
 docker run -ti --rm --volume="$(pwd)":/bot zixia/wechaty mybot.js
 ```
 
-2.2. Run TypeScript
+2.2. 运行 TypeScript
 
 ```shell
 # for TypeScript
@@ -125,23 +124,23 @@ docker run -ti --rm --volume="$(pwd)":/bot zixia/wechaty mybot.ts
 
 > Learn more about Wechaty Docker at [Wiki:Docker](https://github.com/Wechaty/wechaty/wiki/Docker).
 
-### 3. Switch Protocol(Puppet)
+### 3. 变更协议(Puppet)
 
-Wechaty is very powerful that it can run over different protocols. You can specify the protocol by set the environment variable `WECHATY_PUPPET` to different puppet provider.
+Wechaty 的强大之处在于，你可以换用不同的微信个人号协议来使其可以运行。 你可以通过设置不同的环境变量 `WECHATY_PUPPET` 变更至不同的协议。
 
-If you cannot use Web protocol, you can apply other protocal following the instruction here: <https://github.com/wechaty/wechaty/wiki/Support-Developers> We provide free token to support developers build a valuable WeChat chatbot.
+如果你被提示不能使用 Web 端的协议，你可以按照提示申请: <https://github.com/wechaty/wechaty/wiki/Support-Developers> 我们提供了免费的Token帮助任意微信号都可以登录。
 
-Currently we support the following puppet providers:
+目前我们提供:
 
-| Protocol | Puppet Provider | Environment Variable |
+| 协议 | Puppet | 环境变量 |
 | --- | --- | --- |
 | Web | PuppetPuppeteer | `export WECHATY_PUPPET=wechaty-puppet-puppeteer` |
 | iPad | PuppetPadplus | `export WECHATY_PUPPET=wechaty-puppet-padplus` |
 | Mac | PuppetMacpro | `export WECHATY_PUPPET=wechaty-puppet-macpro` |
 | Mock | PuppetMock | `export WECHATY_PUPPET=wechaty-puppet-mock` |
 | Web | PuppetWechat4u | `export WECHATY_PUPPET=wechaty-puppet-wechat4u` |
-| iPad | PuppetPadpro **DEPRECATED** | `export WECHATY_PUPPET=wechaty-puppet-padpro` |
-| iPad | PuppetPadchat **DEPRECATED** | `export WECHATY_PUPPET=wechaty-puppet-padchat` |
+| iPad | PuppetPadpro **已弃用** | `export WECHATY_PUPPET=wechaty-puppet-padpro` |
+| iPad | PuppetPadchat **已弃用** | `export WECHATY_PUPPET=wechaty-puppet-padchat` |
 
 Learn more about Wechaty Puppet from the Puppet Wiki:
 
